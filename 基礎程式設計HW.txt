@@ -1,0 +1,84 @@
+Q1
+
+     Scanner scn = new Scanner(System.in);
+        Float C = scn.nextFloat();
+        Float F =C*9/5+32;
+        System.out.println(F);
+
+---------------------------------------------------
+Q2
+
+     Scanner scn = new Scanner(System.in);
+        int v1 = scn.nextInt();
+        int v2 = scn.nextInt();
+        System.out.println(v1+v2);
+        System.out.println(v1-v2);
+        System.out.println(v1*v2);
+
+---------------------------------------------------
+Q3
+
+    Scanner scn = new Scanner(System.in);
+        int C = scn.nextInt();
+        int E = scn.nextInt();
+        int M = scn.nextInt();
+        int T = C+E+M;
+        if (C<0||E<0||M<0){
+            System.out.println("Error");
+        }else if (C>=0&&E>=0&&M>=0){
+            System.out.println(T);
+            System.out.println(T / 3);
+        }
+
+---------------------------------------------------
+Q4
+
+     Scanner scn = new Scanner(System.in);
+        Float h = scn.nextFloat();
+        Float w = scn.nextFloat();
+        Double H = h/2.54;
+        Double W = w/0.454;
+        System.out.println(H);
+        System.out.println(W);
+
+---------------------------------------------------
+Q5
+
+     Scanner scn = new Scanner(System.in);
+        int a = scn.nextInt();
+        int b = scn.nextInt();
+        int c = scn.nextInt();
+        if ((a>0&&b>0&&c>0)&&(a<=b&&b<=c&&a<=c)){
+            System.out.println("True");
+        }else {
+            System.out.println("False");
+        }
+
+---------------------------------------------------
+Q6
+
+    Scanner scn = new Scanner(System.in);
+        int A = scn.nextInt();
+        int B = scn.nextInt();
+        int C = scn.nextInt();
+        if (A<1||A>3000){
+            System.out.println("Error");
+        }else if((A%4 == 0&&A%100 != 0)||A%400==0){
+            System.out.println("true");
+        }else {
+            System.out.println("false");
+        }
+        if (B<1||B>3000){
+            System.out.println("Error");
+        }else if((B%4 == 0&&B%100 != 0)||B%400==0){
+            System.out.println("true");
+        }else {
+            System.out.println("false");
+        }
+        if (C<1||C>3000){
+            System.out.println("Error");
+        }else if((C%4 == 0&&C%100 != 0)||C%400==0){
+            System.out.println("true");
+        }else {
+            System.out.println("false");
+        }
